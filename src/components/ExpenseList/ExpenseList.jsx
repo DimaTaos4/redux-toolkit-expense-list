@@ -32,7 +32,7 @@ const ExpenseList = () => {
                     })} type="text" />
 
                 </label>
-                {errors.expense && <p className={styles.error}>{errors.expense.message}</p>}
+                {errors.expense && <p className={theme ? styles.darkError : styles.lightError}>{errors.expense.message}</p>}
                 <label htmlFor="price">
                     Price in $
                     <input {...register('price', {
@@ -40,7 +40,7 @@ const ExpenseList = () => {
                     })} type="number" />
 
                 </label>
-                {errors.price && <p className={styles.error}>{errors.price.message}</p>}
+                {errors.price && <p className={theme ? styles.darkError : styles.lightError}>{errors.price.message}</p>}
                 <button className={theme ? styles.lightAddButton : styles.darkAddButton}>Добавить</button>
             </form>
 

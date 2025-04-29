@@ -82,12 +82,18 @@
     cursor: pointer;
     color: rgb(255, 255, 255);
 }
-.error {
+.lightError {
     color: red;
-    font-size: 19px;
+    font-size: 22px;
     margin-top: 8px;
+    font-weight: 600;
 }
-
+.darkError {
+    color: rgb(122, 19, 19);
+    font-size: 22px;
+    margin-top: 8px;
+    font-weight: 600;
+}
 .darkExpenseBlock {
     margin-top: 37px;
     display: flex;
