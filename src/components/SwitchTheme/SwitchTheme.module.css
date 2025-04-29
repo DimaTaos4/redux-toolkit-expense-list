@@ -1,0 +1,49 @@
+.lightSwitchConteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.lightSwitchConteiner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(76, 29, 119);
+}
+
+.lightSwitchConteiner button {
+    padding: 10px 22px;
+    width: 280px;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(35, 135, 153);
+    border: 2px solid rgb(24, 91, 103);
+    color: rgb(255, 255, 255);
+}
+
+.darkSwitchConteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.darkSwitchConteiner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(238, 172, 234);
+}
+
+.darkSwitchConteiner button {
+    padding: 10px 22px;
+    width: 280px;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(165, 229, 175);
+    border: 2px solid rgb(83, 152, 164);
+    color: rgb(7, 111, 47);
+}

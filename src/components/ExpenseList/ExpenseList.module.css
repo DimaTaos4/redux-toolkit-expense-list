@@ -1,0 +1,104 @@
+.expenseBlock {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.expenseBlock h2 {
+    font-size: 35px;
+    font-weight: 750;
+    letter-spacing: 1.1px;
+    color: rgb(45, 8, 109);
+}
+
+.darkExpenseBlock h2 {
+    font-size: 35px;
+    font-weight: 750;
+    letter-spacing: 1.1px;
+    color: rgb(214, 147, 223);
+}
+
+.expenseItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.lightRemoveButton {
+    font-size: 18px;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(160, 247, 177);
+    cursor: pointer;
+}
+.darkRemoveButton {
+    font-size: 18px;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(30, 126, 116);
+    color: white;
+    cursor: pointer;
+}
+.formExpense {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formExpense label {
+    font-size: 24px;
+}
+
+.formExpense input {
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 4px 10px;
+}
+
+.lightAddButton {
+    font-size: 18px;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(160, 247, 177);
+    cursor: pointer;
+}
+.darkAddButton {
+    font-size: 18px;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(30, 126, 116);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.error {
+    color: red;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+.darkExpenseBlock {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.darkExpenseBlock h2 {
+    font-size: 35px;
+    font-weight: 750;
+    letter-spacing: 1.1px;
+    color: rgb(231, 170, 239);
+}
